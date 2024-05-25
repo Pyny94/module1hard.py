@@ -17,4 +17,8 @@ dict_['Johnny']= sumofelement3
 dict_['Khendrik']= sumofelement4
 dict_['Steve']= sumofelement5
 print(dict_)
+print(dict_.items())
+print(dict_.keys())
+print(dict_.pop('Aaron'))
+
 
