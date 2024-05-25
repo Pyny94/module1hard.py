@@ -10,15 +10,21 @@ sumofelement2= (sum(b)/len(b))
 sumofelement3= (sum(c)/len(c))
 sumofelement4= (sum(d)/len(d))
 sumofelement5= (sum(f)/len(f))
+list_= list(students)
+list_.sort()
+a2 = list_[0]
+b2 = list_[1]
+c2 = list_[2]
+d2 = list_[3]
+f2 = list_[4]
 dict_=dict()
-dict_['Aaron']= sumofelement1
-dict_['Bilbo']= sumofelement2
-dict_['Johnny']= sumofelement3
-dict_['Khendrik']= sumofelement4
-dict_['Steve']= sumofelement5
+dict_[a2]= sumofelement1
+dict_[b2]= sumofelement2
+dict_[c2]= sumofelement3
+dict_[d2]= sumofelement4
+dict_[f2]= sumofelement5
+print(a2)
+print(list_)
 print(dict_)
-print(dict_.items())
-print(dict_.keys())
-print(dict_.pop('Aaron'))
 
 
